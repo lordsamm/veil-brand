@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Veil" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/veil_primary</item>
+        <item name="colorPrimaryVariant">@color/veil_primary_dim</item>
+        <item name="colorOnPrimary">@color/veil_bg</item>
+
+        <item name="colorSecondary">@color/veil_primary_bright</item>
+        <item name="colorSecondaryVariant">@color/veil_primary_dim</item>
+        <item name="colorOnSecondary">@color/veil_bg</item>
+
+        <item name="colorSurface">@color/veil_surface_1</item>
+        <item name="colorOnSurface">@color/veil_text_high</item>
+
+        <item name="colorError">@color/veil_danger</item>
+        <item name="colorOnError">#FFFFFF</item>
+
+        <item name="android:colorBackground">@color/veil_bg</item>
+        <item name="android:windowBackground">@color/veil_bg</item>
+        <item name="android:statusBarColor">@color/veil_bg</item>
+        <item name="android:navigationBarColor">@color/veil_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowAnimationStyle">@style/Veil.WindowAnimation</item>
+    </style>
+
+    <style name="Veil.WindowAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/veil_slide_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/veil_fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/veil_fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/veil_slide_out</item>
+    </style>
+</resources>

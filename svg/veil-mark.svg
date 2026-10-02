@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="vg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#7C6BFF"/>
+    </linearGradient>
+  </defs>
+  <!-- top curve -->
+  <path d="M40 60 Q100 20 160 60 Q100 50 40 60 Z" fill="url(#vg)"/>
+  <!-- left wing -->
+  <path d="M40 60 Q20 100 40 140 Q60 100 40 60 Z" fill="url(#vg)"/>
+  <!-- right wing -->
+  <path d="M160 60 Q180 100 160 140 Q140 100 160 60 Z" fill="url(#vg)"/>
+  <!-- bottom curve (mirror of top, leaves a gap) -->
+  <path d="M40 140 Q100 175 160 140 Q100 152 40 140 Z" fill="url(#vg)"/>
+</svg>

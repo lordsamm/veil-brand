@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" fill="none">
+  <defs>
+    <linearGradient id="vf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#7C6BFF"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(20 10) scale(0.4)">
+    <path d="M40 60 Q100 20 160 60 Q100 50 40 60 Z" fill="url(#vf)"/>
+    <path d="M40 60 Q20 100 40 140 Q60 100 40 60 Z" fill="url(#vf)"/>
+    <path d="M160 60 Q180 100 160 140 Q140 100 160 60 Z" fill="url(#vf)"/>
+    <path d="M40 140 Q100 175 160 140 Q100 152 40 140 Z" fill="url(#vf)"/>
+  </g>
+  <text x="130" y="66" font-family="Inter, sans-serif" font-size="44" font-weight="700" fill="#F5F3FF" letter-spacing="-1">Veil</text>
+</svg>
